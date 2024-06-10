@@ -1,0 +1,154 @@
+body {
+    background-color: rgb(36, 36, 36);
+    margin: 5px;
+}
+#link {
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif
+}
+.eu {
+    float: right;
+    width: 100%;
+    object-fit: cover;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header {
+    width: 50%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 5rem;
+    margin: 0;
+    padding-left: 25%;
+    color: antiquewhite;
+}
+
+.sobre {
+    padding-top: 6%;
+    font-size:4rem;
+    margin: 0;
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+.titulo {
+    font-size: 6rem;
+    margin: 0;
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+.titulo2 {
+    font-size: 4rem;
+    margin: 0;
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.caixa-imagem {
+    width: 50%;
+    height: 100vh;
+    position: relative;
+}
+.euzinha {
+    float: left;
+    width: 40%;
+    object-fit: cover;
+    padding-left: 7%;
+}
+.texto {
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1%;
+    font-size: 25px;
+}
+.texto2 {
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1%;
+    font-size: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#caixa {
+
+    width: 20%;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 1em;
+    justify-items: center;
+}
+
+.gallery-item {
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}
+.filmes {
+    text-align: center;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+    text-align:center;
+}
+  .video-container {
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+}
+.logos {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.logo {
+    width: 10%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.box {
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.insta {
+    width: 100px;
+}
+.yt {
+    width: 100px;
+}
+.linkedin {
+    width: 100px;
+}
+
+.image-container {
+    display: inline-block;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
